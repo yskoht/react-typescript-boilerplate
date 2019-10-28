@@ -19,6 +19,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "lint": "tslint --fix -p tsconfig.json",
+    "stylelint": "stylelint --fix --config .stylelintrc.json src/**/*.scss",
     "tslint-check": "tslint-config-prettier-check ./tslint.json"
   },
   "eslintConfig": {
